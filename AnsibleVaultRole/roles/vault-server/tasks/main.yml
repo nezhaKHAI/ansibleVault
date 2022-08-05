@@ -1,0 +1,4 @@
+- name: start the server
+  shell: vault server -config=/etc/vault.hcl 
+  environment:
+    VAULT_ADDR: "http://127.0.0.0:8200"
